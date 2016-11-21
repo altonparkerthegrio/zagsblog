@@ -1,0 +1,1 @@
+<div class="eltd-blog-like"><?php if( function_exists('newsroom_elated_get_like') ) newsroom_elated_get_like(); ?> <?php echo esc_html__('likes','newsroom')?></div>

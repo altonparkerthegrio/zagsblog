@@ -1,0 +1,1548 @@
+/* Global styles
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltd-grid,
+  .eltd-container-inner,
+  .eltd-grid-section .eltd-section-inner,
+  .eltd-breadcrumbs-holder .eltd-breadcrumbs-holder-inner {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-grid,
+  .eltd-container-inner,
+  .eltd-grid-section .eltd-section-inner,
+  .eltd-breadcrumbs-holder .eltd-breadcrumbs-holder-inner {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-grid,
+  .eltd-container-inner,
+  .eltd-grid-section .eltd-section-inner,
+  .eltd-breadcrumbs-holder .eltd-breadcrumbs-holder-inner {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-grid,
+  .eltd-container-inner,
+  .eltd-grid-section .eltd-section-inner,
+  .eltd-breadcrumbs-holder .eltd-breadcrumbs-holder-inner {
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-grid,
+  .eltd-container-inner,
+  .eltd-grid-section .eltd-section-inner,
+  .eltd-breadcrumbs-holder .eltd-breadcrumbs-holder-inner {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltd-grid,
+  .eltd-container-inner,
+  .eltd-grid-section .eltd-section-inner,
+  .eltd-breadcrumbs-holder .eltd-breadcrumbs-holder-inner {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-boxed .eltd-wrapper .eltd-wrapper-inner,
+  .eltd-boxed .eltd-footer-inner {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-boxed .eltd-wrapper .eltd-wrapper-inner,
+  .eltd-boxed .eltd-footer-inner {
+    width: 818px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-boxed .eltd-wrapper .eltd-wrapper-inner,
+  .eltd-boxed .eltd-footer-inner {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-boxed .eltd-wrapper .eltd-wrapper-inner,
+  .eltd-boxed .eltd-footer-inner {
+    width: 470px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-boxed .eltd-wrapper .eltd-wrapper-inner,
+  .eltd-boxed .eltd-footer-inner {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltd-boxed .eltd-wrapper .eltd-wrapper-inner,
+  .eltd-boxed .eltd-footer-inner {
+    width: 86%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-no-title-area .eltd-content {
+    margin-top: 0 !important;
+  }
+  .eltd-content .eltd-two-columns-66-33 > .eltd-column1,
+  .eltd-content .eltd-two-columns-66-33 > .eltd-column2,
+  .eltd-content .eltd-two-columns-33-66 > .eltd-column1,
+  .eltd-content .eltd-two-columns-33-66 > .eltd-column2,
+  .eltd-content .eltd-two-columns-75-25 > .eltd-column1,
+  .eltd-content .eltd-two-columns-75-25 > .eltd-column2,
+  .eltd-content .eltd-two-columns-25-75 > .eltd-column1,
+  .eltd-content .eltd-two-columns-25-75 > .eltd-column2,
+  .eltd-content .eltd-two-columns-50-50 > .eltd-two-columns-50-50-inner > .eltd-column,
+  .eltd-content .eltd-three-columns > .eltd-three-columns-inner > .eltd-column,
+  .eltd-content .eltd-four-columns > .eltd-four-columns-inner > .eltd-column,
+  .eltd-content .eltd-five-columns > .eltd-five-columns-inner > .eltd-column {
+    width: 100%;
+  }
+  .eltd-content .eltd-two-columns-50-50 > .eltd-two-columns-50-50-inner,
+  .eltd-content .eltd-three-columns > .eltd-three-columns-inner,
+  .eltd-content .eltd-four-columns > .eltd-four-columns-inner,
+  .eltd-content .eltd-five-columns > .eltd-five-columns-inner {
+    margin: 0;
+  }
+  .eltd-content .eltd-two-columns-66-33 > .eltd-column1 > .eltd-column-inner,
+  .eltd-content .eltd-two-columns-66-33 > .eltd-column2 > .eltd-column-inner,
+  .eltd-content .eltd-two-columns-33-66 > .eltd-column1 > .eltd-column-inner,
+  .eltd-content .eltd-two-columns-33-66 > .eltd-column2 > .eltd-column-inner,
+  .eltd-content .eltd-two-columns-75-25 > .eltd-column1 > .eltd-column-inner,
+  .eltd-content .eltd-two-columns-75-25 > .eltd-column2 > .eltd-column-inner,
+  .eltd-content .eltd-two-columns-25-75 > .eltd-column1 > .eltd-column-inner,
+  .eltd-content .eltd-two-columns-25-75 > .eltd-column2 > .eltd-column-inner,
+  .eltd-content .eltd-two-columns-50-50 > .eltd-two-columns-50-50-inner > .eltd-column > .eltd-column-inner,
+  .eltd-content .eltd-three-columns > .eltd-three-columns-inner > .eltd-column > .eltd-column-inner,
+  .eltd-content .eltd-four-columns > .eltd-four-columns-inner > .eltd-column > .eltd-column-inner,
+  .eltd-content .eltd-five-columns > .eltd-five-columns-inner > .eltd-column > .eltd-column-inner {
+    padding: 0;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 1.2em;
+  }
+  h2 {
+    font-size: 21px;
+    line-height: 1.2em;
+  }
+  h3 {
+    font-size: 19px;
+    line-height: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-two-columns-66-33 > .eltd-column1,
+  .eltd-two-columns-66-33 > .eltd-column2,
+  .eltd-two-columns-33-66 > .eltd-column1,
+  .eltd-two-columns-33-66 > .eltd-column2,
+  .eltd-two-columns-75-25 > .eltd-column1,
+  .eltd-two-columns-75-25 > .eltd-column2,
+  .eltd-two-columns-25-75 > .eltd-column1,
+  .eltd-two-columns-25-75 > .eltd-column2,
+  .eltd-two-columns-50-50 > .eltd-two-columns-50-50-inner > .eltd-column,
+  .eltd-three-columns > .eltd-three-columns-inner > .eltd-column,
+  .eltd-four-columns > .eltd-four-columns-inner > .eltd-column,
+  .eltd-five-columns > .eltd-five-columns-inner > .eltd-column,
+  .eltd-comment-form .eltd-three-columns .eltd-column,
+  .eltd-three-columns.eltd-contact-form-layout .eltd-column {
+    width: 100%;
+  }
+  .eltd-two-columns-50-50 > .eltd-two-columns-50-50-inner,
+  .eltd-three-columns > .eltd-three-columns-inner,
+  .eltd-four-columns > .eltd-four-columns-inner,
+  .eltd-five-columns > .eltd-five-columns-inner,
+  .eltd-comment-form .eltd-three-columns > .eltd-three-columns-inner,
+  .eltd-three-columns.eltd-contact-form-layout > .eltd-three-columns-inner {
+    margin: 0;
+  }
+  .eltd-two-columns-66-33 > .eltd-column1 > .eltd-column-inner,
+  .eltd-two-columns-66-33 > .eltd-column2 > .eltd-column-inner,
+  .eltd-two-columns-33-66 > .eltd-column1 > .eltd-column-inner,
+  .eltd-two-columns-33-66 > .eltd-column2 > .eltd-column-inner,
+  .eltd-two-columns-75-25 > .eltd-column1 > .eltd-column-inner,
+  .eltd-two-columns-75-25 > .eltd-column2 > .eltd-column-inner,
+  .eltd-two-columns-25-75 > .eltd-column1 > .eltd-column-inner,
+  .eltd-two-columns-25-75 > .eltd-column2 > .eltd-column-inner,
+  .eltd-two-columns-50-50 > .eltd-two-columns-50-50-inner > .eltd-column > .eltd-column-inner,
+  .eltd-three-columns > .eltd-three-columns-inner > .eltd-column > .eltd-column-inner,
+  .eltd-four-columns > .eltd-four-columns-inner > .eltd-column > .eltd-column-inner,
+  .eltd-five-columns > .eltd-five-columns-inner > .eltd-column > .eltd-column-inner,
+  .eltd-comment-form .eltd-three-columns .eltd-column .eltd-column-inner,
+  .eltd-three-columns.eltd-contact-form-layout .eltd-column .eltd-column-inner {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 19px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+}
+
+/*------------------------------------------------------------------
+ * This is main responsive css file for theme. It is broken into following sections:
+ * 1.  Header Styles
+ * 2.  Footer styles
+ * 3.  Title area styles
+ * 4.  Search functionality styles
+ * 5.  Sidebar responsive styles
+ * 6.  Shortcodes styles
+ * 7.  Blog styles
+ * 8.  Widgets styles
+ * 9.  Side area styles
+
+-------------------------------------------------------------------*/
+/* ==========================================================================
+   1. Header responsive styles
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-top-bar .eltd-vertical-align-containers {
+    padding: 0 30px;
+  }
+  .eltd-top-bar .eltd-vertical-align-containers .eltd-position-center {
+    display: none;
+  }
+  .eltd-top-bar .eltd-vertical-align-containers .eltd-position-left,
+  .eltd-top-bar .eltd-vertical-align-containers .eltd-position-right {
+    width: 50%;
+  }
+  .eltd-top-bar .eltd-position-left-inner > .widget:not(.widget_eltd_social_icon_widget),
+  .eltd-top-bar .eltd-position-right-inner > .widget:not(.widget_eltd_social_icon_widget) {
+    margin: 0 20px 0 0;
+  }
+  .eltd-top-bar .eltd-position-left-inner > .widget:not(.widget_eltd_social_icon_widget):last-child,
+  .eltd-top-bar .eltd-position-right-inner > .widget:not(.widget_eltd_social_icon_widget):last-child {
+    margin: 0;
+  }
+  .eltd-top-bar .eltd-social-icon-widget-holder {
+    padding: 0;
+    margin: 0 15px 0 0;
+    border: 0;
+  }
+  .eltd-top-bar .eltd-social-icon-widget-holder:first-child {
+    border: 0;
+  }
+  .eltd-top-bar .eltd-social-icon-widget-holder:last-child {
+    margin: 0;
+  }
+  .eltd-top-bar .widget.widget_nav_menu ul li {
+    margin: 0 15px 5px 0;
+  }
+  .eltd-top-bar .widget.widget_nav_menu ul li:last-child {
+    margin: 0 0 5px;
+  }
+  .eltd-page-header {
+    display: none;
+  }
+  .eltd-mobile-header {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-top-bar .eltd-vertical-align-containers {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-drop-down .wide .second > .inner > ul {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-drop-down .wide .second > .inner > ul {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-boxed.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+    width: 818px;
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-boxed.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-boxed.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+    width: 470px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-boxed.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltd-boxed.eltd-sticky-up-mobile-header .mobile-header-appear .eltd-mobile-header-inner {
+    width: 86%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-mobile-header .eltd-vertical-align-containers .eltd-position-center:before,
+  .eltd-mobile-header .eltd-vertical-align-containers .eltd-position-left:before,
+  .eltd-mobile-header .eltd-vertical-align-containers .eltd-position-right:before {
+    display: none;
+  }
+  .eltd-mobile-header .eltd-vertical-align-containers .eltd-position-left,
+  .eltd-mobile-header .eltd-vertical-align-containers .eltd-position-right {
+    padding-top: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+/* ==========================================================================
+   2. Footer responsive styles
+   ========================================================================== */
+/* ==========================================================================
+# Footer responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 1280px) {
+  footer .eltd-footer-heading-holder .eltd-footer-heading-inner.eltd-footer-top-full,
+  footer .eltd-footer-top.eltd-footer-top-full > div .eltd-column .eltd-column-inner {
+    padding: 0 15px;
+  }
+  footer .wpcf7-form .eltd-50 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-footer-bottom-holder .eltd-two-columns-50-50 .eltd-column {
+    width: 100%;
+    float: none;
+  }
+  .eltd-footer-bottom-holder .eltd-two-columns-50-50 .eltd-column .eltd-column-inner {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+  .eltd-footer-bottom-holder .eltd-two-columns-50-50 .eltd-column:last-child .eltd-column-inner {
+    margin-bottom: 0;
+  }
+  footer .eltd-footer-bottom-holder .widget.widget_nav_menu ul li {
+    margin: 0 12px 0 0;
+  }
+  footer .eltd-footer-top-holder .eltd-column:nth-child(2) {
+    border-right: none;
+  }
+  footer .eltd-footer-top-holder .eltd-four-columns .eltd-column {
+    width: 50%;
+    margin-bottom: 50px;
+    /* deleted margin for third child in next @media */
+  }
+  footer .eltd-footer-top-holder .eltd-four-columns .eltd-column:nth-child(4) {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  footer .eltd-footer-top-holder .eltd-four-columns .eltd-column:nth-child(3) {
+    clear: both;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer .eltd-footer-top-holder .eltd-column {
+    margin-bottom: 50px;
+    border-right: none !important;
+  }
+  footer .eltd-footer-top-holder .eltd-column:last-child {
+    margin-bottom: 0;
+  }
+  footer .eltd-footer-top-holder .eltd-four-columns .eltd-column {
+    width: 100%;
+    float: none;
+  }
+  footer .eltd-footer-bottom-holder {
+    height: auto;
+    line-height: 24px;
+    padding: 11px 0;
+  }
+  footer .eltd-footer-bottom-holder .eltd-column-inner {
+    text-align: center !important;
+    margin: 5px 0;
+  }
+  footer .eltd-footer-bottom-holder .eltd-social-icon-widget-holder {
+    padding: 0;
+    margin: 0 15px 0 0;
+    border: 0;
+  }
+  footer .eltd-footer-bottom-holder .eltd-social-icon-widget-holder:first-child {
+    border: 0;
+  }
+  footer .eltd-footer-bottom-holder .eltd-social-icon-widget-holder:last-child {
+    margin: 0;
+  }
+  footer .eltd-footer-top-holder .eltd-four-columns > .eltd-four-columns-inner,
+  footer .eltd-footer-top-holder .eltd-three-columns > .eltd-three-columns-inner,
+  footer .eltd-footer-top-holder .eltd-two-columns-50-50 > .eltd-two-columns-50-50-inner {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer .eltd-footer-top.eltd-footer-top-full > div {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* ==========================================================================
+# Footer responsive style - end
+========================================================================== */
+/* ==========================================================================
+   3. Title responsive styles
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-title.eltd-has-background {
+    background: transparent none repeat scroll 0 0 !important;
+    height: auto !important;
+    padding: 0 !important;
+  }
+  .eltd-title.eltd-has-background .eltd-title-holder {
+    height: 100% !important;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 !important;
+  }
+  .single-post:not(.single-format-standard) .eltd-title.eltd-has-background .eltd-title-holder {
+    position: relative;
+  }
+  .eltd-title.eltd-title-image-not-responsive .eltd-title-image {
+    display: block;
+  }
+  .eltd-title.eltd-title-image-not-responsive .eltd-title-image-overlay {
+    width: 100% !important;
+  }
+  .eltd-title .eltd-title-holder .eltd-container {
+    display: block;
+    height: 100%;
+  }
+  .eltd-title .eltd-title-holder .eltd-container-inner {
+    display: table;
+    height: 100%;
+  }
+  .eltd-title .eltd-title-holder .eltd-title-subtitle-holder {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-breadcrumbs a,
+  .eltd-breadcrumbs span {
+    line-height: 1.3em;
+    vertical-align: baseline;
+  }
+}
+
+/* ==========================================================================
+   4. Search responsive styles
+   ========================================================================== */
+/* ==========================================================================
+# Search template responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 600px) {
+  body.search .eltd-search-results-holder,
+  body.search .eltd-search-page-form {
+    width: 100%;
+    max-width: none;
+  }
+  body.search .eltd-search-page-form {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body.search .eltd-search-page-holder .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-image-holder {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 13px;
+    width: 100%;
+  }
+  body.search .eltd-search-page-holder .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-image-holder .eltd-pt-image-link {
+    /* overwrite table cell bigger screen */
+    max-width: none !important;
+    width: 100% !important;
+  }
+  body.search .eltd-search-page-holder .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-image-holder .eltd-pt-image-link img {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+# Search template responsive style - end
+========================================================================== */
+/* ==========================================================================
+   5. Sidebar responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Sidebar and side menu styles
+   ========================================================================== */
+@media only screen and (max-width: 601px) and (max-width: 1024px) {
+  .wpb_widgetised_column .widget .eltd-post-item.eltd-pt-two-item .eltd-pt-image-link,
+  aside.eltd-sidebar .widget .eltd-post-item.eltd-pt-two-item .eltd-pt-image-link {
+    max-width: 60px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wpb_widgetised_column, aside.eltd-sidebar {
+    margin-top: 24px !important;
+  }
+  .eltd-column1 aside.eltd-sidebar {
+    margin-bottom: 50px;
+  }
+}
+
+/* ==========================================================================
+#Sidebar styles - end
+========================================================================== */
+/* ==========================================================================
+   6. Shortcodes responsive styles
+   ========================================================================== */
+/* Buttons responsive styles
+   ========================================================================== */
+/* ==========================================================================
+# Buttons responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltd-btn {
+    padding: 8px 30px;
+  }
+  .eltd-btn.eltd-btn-small {
+    padding: 8px 22px;
+  }
+  .eltd-btn.eltd-btn-small .eltd-btn-icon-element {
+    font-size: 1.5em;
+  }
+  .eltd-btn.eltd-btn-large {
+    padding: 10px 32px;
+  }
+  .eltd-btn.eltd-btn-huge {
+    padding: 13px 20px;
+  }
+  .eltd-btn .eltd-btn-text {
+    font-size: 0.85em;
+  }
+  .eltd-btn .eltd-btn-icon-element {
+    top: 0;
+    font-size: 1.4em;
+  }
+  .eltd-btn .eltd-btn-icon-element.eltd-icon-font-awesome {
+    top: -2px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-btn {
+    padding: 7px 28px;
+  }
+  .eltd-btn.eltd-btn-small {
+    padding: 7px 19px;
+  }
+  .eltd-btn.eltd-btn-large {
+    padding: 9px 28px;
+  }
+  .eltd-btn.eltd-btn-huge {
+    padding: 12px 20px;
+  }
+  .eltd-btn .eltd-btn-text {
+    font-size: 0.8em;
+  }
+}
+
+/* ==========================================================================
+# Buttons responsive style - end
+========================================================================== */
+/* Post Layouts, Blocks and Sliders common responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Post Block and Layout responsive style - start
+   ========================================================================== */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .eltd-bnl-holder.eltd-post-columns-2 .eltd-post-item {
+    width: 50% !important;
+  }
+  .eltd-bnl-holder.eltd-post-columns-2 .eltd-post-item:nth-child(2n+1) {
+    clear: both;
+  }
+  .eltd-bnl-holder.eltd-post-columns-2 .eltd-post-item:nth-last-child(1),
+  .eltd-bnl-holder.eltd-post-columns-2 .eltd-post-item:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+  .eltd-bnl-holder.eltd-post-columns-3 .eltd-post-item {
+    width: 50% !important;
+  }
+  .eltd-bnl-holder.eltd-post-columns-3 .eltd-post-item:nth-child(2n+1) {
+    clear: both;
+  }
+  .eltd-bnl-holder.eltd-post-columns-3 .eltd-post-item:nth-last-child(1),
+  .eltd-bnl-holder.eltd-post-columns-3 .eltd-post-item:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+  .eltd-bnl-holder.eltd-post-columns-4 .eltd-post-item {
+    width: 50% !important;
+  }
+  .eltd-bnl-holder.eltd-post-columns-4 .eltd-post-item:nth-child(2n+1) {
+    clear: both;
+  }
+  .eltd-bnl-holder.eltd-post-columns-4 .eltd-post-item:nth-last-child(1),
+  .eltd-bnl-holder.eltd-post-columns-4 .eltd-post-item:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+  .eltd-bnl-holder.eltd-post-columns-5 .eltd-post-item {
+    width: 50% !important;
+  }
+  .eltd-bnl-holder.eltd-post-columns-5 .eltd-post-item:nth-child(2n+1) {
+    clear: both;
+  }
+  .eltd-bnl-holder.eltd-post-columns-5 .eltd-post-item:nth-last-child(1),
+  .eltd-bnl-holder.eltd-post-columns-5 .eltd-post-item:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+  .eltd-bnl-holder.eltd-post-columns-1 .eltd-post-item:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-bnl-holder:not(.eltd-slider-holder):not(.eltd-sp-three-holder):not(.eltd-sp-four-holder) .eltd-post-item {
+    width: 100% !important;
+    float: none;
+  }
+  .eltd-bnl-holder.eltd-post-columns-1 .eltd-post-item:last-child {
+    margin-bottom: 0;
+  }
+  .eltd-bnl-holder.eltd-post-columns-2 .eltd-post-item:last-child {
+    margin-bottom: 0;
+  }
+  .eltd-bnl-holder.eltd-post-columns-3 .eltd-post-item:last-child {
+    margin-bottom: 0;
+  }
+  .eltd-bnl-holder.eltd-post-columns-4 .eltd-post-item:last-child {
+    margin-bottom: 0;
+  }
+  .eltd-bnl-holder.eltd-post-columns-5 .eltd-post-item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-bnl-holder .eltd-pt-excerpt,
+  .eltd-bnl-holder .eltd-pt-meta-section {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Post Block and Layout responsive style - end
+   ========================================================================== */
+/* Sliders style - begin */
+@media only screen and (max-width: 1024px) {
+  .eltd-bnl-holder .eltd-pt-meta-section {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-bnl-holder .eltd-pt-excerpt {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-bnl-holder.eltd-slider-holder .slick-dots li button,
+  .eltd-bnl-holder.eltd-sp-four-holder .slick-dots li button {
+    width: 30px;
+  }
+  .eltd-bnl-holder.eltd-slider-holder .slick-dots li button:before,
+  .eltd-bnl-holder.eltd-sp-four-holder .slick-dots li button:before {
+    width: 30px;
+  }
+}
+
+/* Sliders style - end */
+/* Google Map responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Google Map start style
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltd-google-map-overlay {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   End of Google Map style
+   ========================================================================== */
+/* Image with hover info responsive styles
+   ========================================================================== */
+/* ==========================================================================
+# Image With Hover Info Style - begin
+   ========================================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .eltd-image-with-hover-info-holder.eltd-four-columns .eltd-image-with-hover-info-item {
+    width: calc(33% - 30px);
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .eltd-image-with-hover-info-holder .eltd-image-with-hover-info-item {
+    width: calc(50% - 30px) !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-image-with-hover-info-holder .eltd-image-with-hover-info-item {
+    width: calc(100% - 30px) !important;
+  }
+}
+
+/* ==========================================================================
+# Image With Hover Info Style - end
+   ========================================================================== */
+/* Section Title responsive styles
+   ========================================================================== */
+/* ==========================================================================
+# Section title responsive - begin
+========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltd-section-title-holder > .eltd-st-title {
+    font-size: 32px;
+  }
+  /* those options are merged so selector is here */
+  .eltd-post-pag-np-horizontal .eltd-bnl-navigation-holder .eltd-bnl-nav-icon {
+    line-height: 51px;
+  }
+  .eltd-bnl-holder.eltd-sp-four-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-slider-navigation-holder {
+    top: -47px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-section-title-holder > .eltd-st-title {
+    font-size: 28px;
+  }
+  /* those options are merged so selector is here */
+  .eltd-post-pag-np-horizontal .eltd-bnl-navigation-holder .eltd-bnl-nav-icon {
+    line-height: 49px;
+  }
+  .eltd-bnl-holder.eltd-sp-four-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-slider-navigation-holder {
+    top: -45px;
+  }
+}
+
+/* ==========================================================================
+# Section title responsive - end
+========================================================================== */
+/* Post Layouts responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Post Template One Responsive style - start
+   ========================================================================== */
+@media only screen and (max-width: 600px) {
+  .eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-one-item .eltd-post-item-inner .eltd-pt-image-holder .eltd-pt-image-link {
+    display: block;
+  }
+  .eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-one-item .eltd-post-item-inner .eltd-pt-image-holder .eltd-pt-image-link img {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Post Template One Responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Post Template Two Responsive style - start
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  div:not(.eltd-plw-two) > .eltd-bnl-holder.eltd-layout-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-image-link {
+    max-width: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-content-holder {
+    position: relative;
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    /*vertical-align: middle;*/
+    vertical-align: top;
+    width: auto;
+  }
+  .eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-content-holder .eltd-pt-title {
+    margin-top: 7px;
+  }
+  .eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-content-holder .eltd-pt-meta-section {
+    margin-top: 5px;
+  }
+  .eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-content-holder .eltd-pt-excerpt {
+    margin-top: 12px;
+  }
+  .eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-content-holder .eltd-pt-more-section .eltd-social-share-holder {
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-image-holder {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 13px;
+    width: 100%;
+  }
+  .eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-image-holder .eltd-pt-image-link {
+    /* overwrite table cell bigger screen */
+    max-width: none !important;
+    width: 100% !important;
+  }
+  .eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-two-item .eltd-post-item-inner .eltd-pt-image-holder .eltd-pt-image-link img {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Post Template Two Responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Post Template Three Responsive style - start
+   ========================================================================== */
+@media only screen and (max-width: 600px) {
+  .eltd-bnl-holder.eltd-layout-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-three-item .eltd-post-item-inner .eltd-pt-title > * {
+    font-size: 0.9em;
+  }
+}
+
+/* ==========================================================================
+   Post Template Three Responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Post Template Four Responsive style - start
+   ========================================================================== */
+/* ==========================================================================
+   Post Template Four Responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Post Template Five Responsive style - start
+   ========================================================================== */
+/* ==========================================================================
+   Post Template Five Responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Post Template Six Responsive style - start
+   ========================================================================== */
+/* ==========================================================================
+   Post Template Six Responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Post Template Seven Responsive style - start
+   ========================================================================== */
+/* ==========================================================================
+   Post Template Seven Responsive style - end
+   ========================================================================== */
+/* Post Blocks responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Block One responsive start style
+   ========================================================================== */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .eltd-pb-one-holder .eltd-btn.eltd-btn-icon.eltd-read-more .eltd-btn-text {
+    font-size: 0.85em;
+  }
+  .eltd-pb-one-holder .eltd-btn.eltd-btn-icon.eltd-read-more .eltd-btn-icon-element {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-bnl-holder.eltd-block-holder.eltd-pb-one-holder .eltd-bnl-outer .eltd-bnl-inner > .eltd-post-block-featured .eltd-pt-more-section > div {
+    width: 100%;
+  }
+  .eltd-bnl-holder.eltd-block-holder.eltd-pb-one-holder .eltd-bnl-outer .eltd-bnl-inner > .eltd-post-block-featured .eltd-pt-more-section > div.eltd-pt-more-section-right {
+    text-align: left;
+  }
+  .eltd-bnl-holder.eltd-block-holder.eltd-pb-one-holder .eltd-bnl-outer .eltd-bnl-inner > .eltd-post-block-featured .eltd-pt-more-section > div.eltd-pt-more-section-right .eltd-btn.eltd-btn-icon {
+    line-height: 2.2em;
+  }
+  .eltd-bnl-holder.eltd-block-holder.eltd-pb-one-holder .eltd-bnl-outer .eltd-bnl-inner > .eltd-post-block-featured .eltd-pt-more-section > div.eltd-pt-more-section-right .eltd-btn.eltd-btn-icon .eltd-btn-text {
+    padding: 0;
+  }
+}
+
+/* ==========================================================================
+   Block One responsive end style
+   ========================================================================== */
+/* ==========================================================================
+   Block Two responsive start style
+   ========================================================================== */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .eltd-pb-two-holder .eltd-btn.eltd-btn-icon.eltd-read-more .eltd-btn-text {
+    font-size: 0.85em;
+  }
+  .eltd-pb-two-holder .eltd-btn.eltd-btn-icon.eltd-read-more .eltd-btn-icon-element {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-pb-two-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-block-featured .eltd-post-item {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-pb-two-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-block-non-featured .eltd-post-item:not(:last-child) .eltd-post-item-inner {
+    border-bottom: 1px solid #dddcdc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-bnl-holder.eltd-block-holder.eltd-pb-two-holder .eltd-bnl-outer .eltd-bnl-inner > .eltd-post-block-featured .eltd-pt-more-section > div {
+    width: 100%;
+  }
+  .eltd-bnl-holder.eltd-block-holder.eltd-pb-two-holder .eltd-bnl-outer .eltd-bnl-inner > .eltd-post-block-featured .eltd-pt-more-section > div.eltd-pt-more-section-right {
+    text-align: left;
+  }
+  .eltd-bnl-holder.eltd-block-holder.eltd-pb-two-holder .eltd-bnl-outer .eltd-bnl-inner > .eltd-post-block-featured .eltd-pt-more-section > div.eltd-pt-more-section-right .eltd-btn.eltd-btn-icon {
+    line-height: 2.2em;
+  }
+  .eltd-bnl-holder.eltd-block-holder.eltd-pb-two-holder .eltd-bnl-outer .eltd-bnl-inner > .eltd-post-block-featured .eltd-pt-more-section > div.eltd-pt-more-section-right .eltd-btn.eltd-btn-icon .eltd-btn-text {
+    padding: 0;
+  }
+}
+
+/* ==========================================================================
+   Block Two responsive end style
+   ========================================================================== */
+/* ==========================================================================
+   Block Three responsive start style
+   ========================================================================== */
+@media only screen and (max-width: 600px) {
+  .eltd-bnl-holder.eltd-block-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-three-item .eltd-post-item-inner .eltd-pt-image-holder {
+    float: none;
+    width: 100%;
+    margin-bottom: 22px;
+  }
+  .eltd-bnl-holder.eltd-block-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-pt-three-item .eltd-post-item-inner .eltd-pt-content-holder {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Block Three responsive end style
+   ========================================================================== */
+/* ==========================================================================
+   Block Four responsive start style
+   ========================================================================== */
+@media only screen and (max-width: 600px) {
+  .eltd-pb-four-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner > .eltd-post-block-non-featured {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Block Four responsive end style
+   ========================================================================== */
+/* ==========================================================================
+   Block Five responsive start style
+   ========================================================================== */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .eltd-pb-five-holder .eltd-pb-five-non-featured .eltd-pt-two-item:last-child {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltd-pb-five-holder .eltd-pb-five-non-featured .eltd-pt-two-item a.eltd-pt-image-link {
+    max-width: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltd-pb-five-holder .eltd-pb-five-featured,
+  .eltd-pb-five-holder .eltd-pb-five-non-featured {
+    width: 100% !important;
+    padding: 0 22px !important;
+  }
+  .eltd-pb-five-holder .eltd-pb-five-featured .eltd-post-item,
+  .eltd-pb-five-holder .eltd-pb-five-non-featured .eltd-post-item {
+    padding: 0 12px !important;
+  }
+  .eltd-pb-five-holder .eltd-pb-five-featured .eltd-post-item .eltd-pt-image-holder,
+  .eltd-pb-five-holder .eltd-pb-five-non-featured .eltd-post-item .eltd-pt-image-holder {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-bnl-holder.eltd-block-holder.eltd-pb-five-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-block-featured .eltd-post-item .eltd-post-item-inner .eltd-pt-content-holder {
+    position: relative;
+  }
+  .eltd-bnl-holder.eltd-block-holder.eltd-pb-five-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-block-featured .eltd-post-item .eltd-post-item-inner .eltd-pt-content-holder .eltd-pt-title {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Block Five responsive end style
+   ========================================================================== */
+/* Slider Post responsive styles
+   ========================================================================== */
+/* Slider Post Two - begin */
+@media only screen and (max-width: 1024px) {
+  .eltd-sp-two-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-item.eltd-active-post-page .eltd-post-item-inner .eltd-pt-content-holder {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/* Slider Post Three responsive - begin */
+@media only screen and (max-width: 1024px) {
+  .eltd-sp-three-holder.eltd-bnl-holder .eltd-grid {
+    width: auto;
+    padding: 0 30px;
+  }
+  .eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary-outer .eltd-post-slider-secondary {
+    right: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-primary .eltd-post-item.eltd-pt-five-item .eltd-post-item-inner {
+    padding: 0 30px;
+  }
+  .eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary {
+    display: none !important;
+    width: 48px !important;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 45px;
+    z-index: 9;
+  }
+  .eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary .slick-list {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary .slick-list .slick-track {
+    width: 100% !important;
+    transform: none !important;
+  }
+  .eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary .slick-list .slick-track .slick-slide {
+    padding: 0;
+    display: table;
+    border: 1px solid #ffffff;
+    margin: 10px 0;
+  }
+  .eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary .slick-list .slick-track .slick-slide * {
+    font-size: 0 !important;
+    line-height: 0 !important;
+  }
+  .eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary .slick-list .slick-track .slick-slide.slick-cloned {
+    display: none;
+  }
+  .eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary-outer {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+}
+
+/* Slider Post Three responsive - end */
+/* Slider Post Four responsive - begin */
+@media only screen and (max-width: 1024px) {
+  .eltd-sp-four-holder {
+    margin-bottom: 52px !important;
+  }
+  .eltd-sp-four-holder .eltd-post-slider-primary .eltd-post-item .eltd-post-item-inner .eltd-pt-content-holder {
+    position: relative !important;
+  }
+  .eltd-sp-four-holder .eltd-post-slider-primary .eltd-post-item .eltd-post-item-inner .eltd-pt-content-holder .eltd-pt-title {
+    width: 100% !important;
+  }
+  .eltd-sp-four-holder .eltd-post-slider-secondary {
+    display: none;
+  }
+}
+
+/* Slider Post Four responsive - end */
+/* ==========================================================================
+   7. Blog responsive styles
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltd-related-posts-holder .eltd-related-posts-inner .eltd-related-post {
+    width: 50%;
+  }
+  .eltd-related-posts-holder .eltd-related-posts-inner .eltd-related-post:nth-child(4) {
+    clear: none;
+  }
+  .eltd-related-posts-holder .eltd-related-posts-inner .eltd-related-post:nth-child(3) {
+    clear: both;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .eltd-blog-holder.eltd-blog-type-standard .eltd-btn.eltd-btn-icon .eltd-btn-text {
+    font-size: 0.85em;
+  }
+  .eltd-blog-holder.eltd-blog-type-standard .eltd-btn.eltd-btn-icon .eltd-btn-icon-element {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltd-blog-holder.eltd-blog-type-standard article .eltd-post-info > div {
+    margin: 0 14px 0 0;
+  }
+  .eltd-content-left-from-sidebar .eltd-related-posts-holder .eltd-related-posts-inner,
+  .eltd-content-right-from-sidebar .eltd-related-posts-holder .eltd-related-posts-inner,
+  .eltd-related-posts-holder .eltd-related-posts-inner {
+    margin: 0 -8px;
+  }
+  .eltd-content-left-from-sidebar .eltd-related-posts-holder .eltd-related-posts-inner .eltd-related-post,
+  .eltd-content-right-from-sidebar .eltd-related-posts-holder .eltd-related-posts-inner .eltd-related-post,
+  .eltd-related-posts-holder .eltd-related-posts-inner .eltd-related-post {
+    padding: 0 8px;
+    width: 100%;
+    float: none;
+  }
+  .eltd-comment-list .children {
+    padding: 0 0 0 50px;
+  }
+  .single-post.single-format-standard .eltd-title .eltd-pt-info-section > div {
+    margin: 0 10px 0 0;
+  }
+  .single-post.single-format-standard .eltd-title .eltd-title-post-info {
+    display: none;
+  }
+  .single-post .eltd-title .eltd-pt-info-section > div {
+    margin: 0 10px 0 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eltd-blog-holder.eltd-blog-type-standard article .eltd-post-info {
+    margin: 0 0 9px;
+  }
+  .eltd-blog-holder.eltd-blog-type-standard article .eltd-post-info > div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 12px 5px 0;
+  }
+  .eltd-blog-single-navigation .eltd-blog-single-prev a,
+  .eltd-blog-single-navigation .eltd-blog-single-next a {
+    min-width: inherit;
+  }
+  .eltd-blog-single-navigation .eltd-blog-single-prev a span,
+  .eltd-blog-single-navigation .eltd-blog-single-next a span {
+    display: none;
+  }
+  .eltd-blog-single-navigation .eltd-blog-single-prev a .eltd-blog-single-nav-mark,
+  .eltd-blog-single-navigation .eltd-blog-single-next a .eltd-blog-single-nav-mark {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .eltd-blog-single-navigation .eltd-blog-single-prev a .eltd-blog-single-nav-text,
+  .eltd-blog-single-navigation .eltd-blog-single-next a .eltd-blog-single-nav-text {
+    display: none;
+    padding: 0;
+  }
+  .eltd-related-posts-holder .eltd-related-posts-inner .eltd-related-post {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+  .eltd-content-left-from-sidebar .eltd-related-posts-holder .eltd-related-posts-inner .eltd-related-post,
+  .eltd-content-right-from-sidebar .eltd-related-posts-holder .eltd-related-posts-inner .eltd-related-post {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+  .eltd-comment-list .children {
+    padding: 0 0 0 30px;
+  }
+  .single-post.single-format-standard .eltd-title .eltd-title-single-holder {
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltd-blog-holder.eltd-blog-type-standard article .eltd-pt-more-section > div {
+    width: 100%;
+  }
+  .eltd-blog-holder.eltd-blog-type-standard article .eltd-pt-more-section > div.eltd-pt-more-section-right {
+    text-align: left;
+  }
+  .eltd-blog-holder.eltd-blog-type-standard article .eltd-pt-more-section > div.eltd-pt-more-section-right .eltd-btn.eltd-btn-icon {
+    line-height: 2.2em;
+  }
+  .eltd-blog-holder.eltd-blog-type-standard article .eltd-pt-more-section > div.eltd-pt-more-section-right .eltd-btn.eltd-btn-icon .eltd-btn-text {
+    padding: 0;
+  }
+  .eltd-blog-holder.eltd-blog-type-standard article.format-quote .eltd-post-text-inner,
+  .eltd-blog-holder.eltd-blog-type-standard article.format-link .eltd-post-text-inner {
+    margin: 0;
+  }
+  .eltd-blog-single-navigation .eltd-blog-single-prev h5 {
+    margin: 0 0 0 9px;
+  }
+  .eltd-blog-single-navigation .eltd-blog-single-next h5 {
+    margin: 0 9px 0 0;
+  }
+  .eltd-author-description .eltd-author-description-image {
+    float: none;
+  }
+  .eltd-author-description .eltd-author-description-text-holder {
+    padding: 15px 0 0;
+  }
+  .eltd-author-description .eltd-author-text {
+    margin: 10px 0;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .eltd-comment-holder .eltd-comment-text .eltd-text-holder > * {
+    padding: 0;
+  }
+  .eltd-comment-holder .eltd-comment-text .eltd-text-holder:before {
+    display: none;
+  }
+  .eltd-comment-holder .eltd-comment-image,
+  .eltd-comment-holder .eltd-comment-text-and-info {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .eltd-comment-holder .eltd-comment-text-and-info {
+    margin-top: 15px;
+  }
+  .eltd-comment-list .children {
+    padding: 0 0 0 20px;
+  }
+}
+
+/* ==========================================================================
+   Blog Single responsive style - start
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .single-post .eltd-related-posts-holder {
+    margin: 24px 0 24px 0;
+    /* grid begin */
+    /* grid end */
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-item:not(:nth-last-child(1)):not(:nth-last-child(2)) .eltd-post-item-inner {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dddcdc;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-columns-2 .eltd-post-item {
+    width: 50%;
+    float: left;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-columns-2 .eltd-post-item:nth-child(2n+1) {
+    clear: both;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-columns-3 .eltd-post-item {
+    width: 50%;
+    float: left;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-columns-3 .eltd-post-item:nth-child(3n+1) {
+    clear: both;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-columns-4 .eltd-post-item {
+    width: 50%;
+    float: left;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-columns-4 .eltd-post-item:nth-child(4n+1) {
+    clear: both;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-columns-5 .eltd-post-item {
+    width: 50%;
+    float: left;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-columns-5 .eltd-post-item:nth-child(5n+1) {
+    clear: both;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-columns-6 .eltd-post-item {
+    width: 50%;
+    float: left;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-columns-6 .eltd-post-item:nth-child(6n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .single-post .eltd-post-info > div {
+    line-height: 1.4em;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-item {
+    width: 100% !important;
+  }
+  .single-post .eltd-related-posts-holder .eltd-post-item:not(:last-child) .eltd-post-item-inner {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dddcdc;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .single-post .eltd-single-tags-share-holder > div {
+    width: 100%;
+    float: left;
+  }
+  .single-post .eltd-single-tags-share-holder > div.eltd-single-share-holder {
+    text-align: left;
+  }
+  .single-post .eltd-single-tags-share-holder > div.eltd-single-share-holder .eltd-list li:not(:last-child) span:after {
+    right: -2px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .single-post .eltd-blog-single-navigation .eltd-blog-single-next,
+  .single-post .eltd-blog-single-navigation .eltd-blog-single-prev {
+    width: 100%;
+    border: none !important;
+    /* overwrite border separator */
+  }
+}
+
+/* ==========================================================================
+   Blog Single responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Post and Block styles for Category Templates - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  body.category .eltd-unique-category-layout .eltd-two-columns-7-5 {
+    width: 100%;
+  }
+  body.category .eltd-unique-category-layout .eltd-two-columns-7-5 .eltd-column:first-child {
+    width: 100%;
+  }
+  body.category .eltd-unique-category-layout .eltd-two-columns-7-5 .eltd-column:last-child {
+    width: 100%;
+  }
+  body.category .eltd-unique-category-layout .eltd-two-columns-1-2 {
+    width: 100%;
+  }
+  body.category .eltd-unique-category-layout .eltd-two-columns-1-2 .eltd-column:first-child {
+    width: 100%;
+  }
+  body.category .eltd-unique-category-layout .eltd-two-columns-1-2 .eltd-column:last-child {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Post and Block styles for Category Templates - end
+   ========================================================================== */
+/* ==========================================================================
+   8. Widgets responsive styles
+   ========================================================================== */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  ul.eltd-instagram-feed.eltd-col-9 li {
+    width: 33.33%;
+  }
+  ul.eltd-instagram-feed.eltd-col-8 li {
+    width: 25%;
+  }
+  ul.eltd-instagram-feed.eltd-col-9 li:nth-child(3n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-8 li:nth-child(4n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-2 li {
+    width: 50%;
+  }
+  ul.eltd-instagram-feed.eltd-col-2 li:nth-child(2n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-3 li {
+    width: 33.3333333333%;
+  }
+  ul.eltd-instagram-feed.eltd-col-3 li:nth-child(3n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-4 li {
+    width: 25%;
+  }
+  ul.eltd-instagram-feed.eltd-col-4 li:nth-child(4n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-5 li {
+    width: 20%;
+  }
+  ul.eltd-instagram-feed.eltd-col-5 li:nth-child(5n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-6 li {
+    width: 16.6666666667%;
+  }
+  ul.eltd-instagram-feed.eltd-col-6 li:nth-child(6n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-7 li {
+    width: 14.2857142857%;
+  }
+  ul.eltd-instagram-feed.eltd-col-7 li:nth-child(7n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  ul.eltd-instagram-feed.eltd-col-7 li,
+  ul.eltd-instagram-feed.eltd-col-6 li {
+    width: 33.33%;
+  }
+  ul.eltd-instagram-feed.eltd-col-7 li:nth-child(3n+1),
+  ul.eltd-instagram-feed.eltd-col-6 li:nth-child(3n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-2 li {
+    width: 50%;
+  }
+  ul.eltd-instagram-feed.eltd-col-2 li:nth-child(2n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-3 li {
+    width: 33.3333333333%;
+  }
+  ul.eltd-instagram-feed.eltd-col-3 li:nth-child(3n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-4 li {
+    width: 25%;
+  }
+  ul.eltd-instagram-feed.eltd-col-4 li:nth-child(4n+1) {
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-5 li {
+    width: 20%;
+  }
+  ul.eltd-instagram-feed.eltd-col-5 li:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  ul.eltd-instagram-feed.eltd-col-3 li,
+  ul.eltd-instagram-feed.eltd-col-4 li,
+  ul.eltd-instagram-feed.eltd-col-5 li,
+  ul.eltd-instagram-feed.eltd-col-6 li,
+  ul.eltd-instagram-feed.eltd-col-7 li,
+  ul.eltd-instagram-feed.eltd-col-8 li,
+  ul.eltd-instagram-feed.eltd-col-9 li {
+    width: 100%;
+    clear: both;
+  }
+  ul.eltd-instagram-feed.eltd-col-2 li {
+    width: 50%;
+  }
+  ul.eltd-instagram-feed.eltd-col-2 li:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+/* ==========================================================================
+   Breaking news responsive start styles
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltd-bn-holder .eltd-bn-title {
+    position: relative;
+    left: 0;
+    margin: 15px 0 0;
+    line-height: 1.4em;
+  }
+  .eltd-bn-holder ul.eltd-bn-slide {
+    padding: 0;
+    margin: 5px 0 10px;
+  }
+  .eltd-bn-holder ul.eltd-bn-slide .eltd-bn-text {
+    line-height: 1;
+  }
+  .eltd-bn-holder ul.eltd-bn-slide .eltd-bn-text a {
+    line-height: 1.4em;
+  }
+}
+
+/* ==========================================================================
+   Breaking news responsive end styles
+   ========================================================================== */
+/* ==========================================================================
+   #Twitter feed
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .eltd-twitter-widget li .eltd-tweet-text {
+    font-size: 14px;
+  }
+  .eltd-twitter-widget li .eltd-tweet-text a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  footer .eltd-twitter-widget li:last-child {
+    display: none;
+  }
+  footer .eltd-twitter-widget li:nth-last-child(2) {
+    border-bottom: none;
+  }
+}
+
+/* ==========================================================================
+   9. Side area responsive styles
+   ========================================================================== */
+
+/*# sourceMappingURL=modules-responsive.css.map */
